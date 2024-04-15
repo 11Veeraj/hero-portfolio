@@ -2,8 +2,6 @@
 
 ## FOLIO
 
-[Live Demo](https://ayushsingh.co.in/)
-
 To cater to my goal of having my own portfolio website since 2016 🚀
 
 ## How did I create this?

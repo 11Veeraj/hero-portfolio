@@ -1,8 +1,4 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
+
 
 import { MENULINKS, SKILLS } from "../../constants";
 import Image from "next/image";
@@ -51,8 +47,7 @@ const SkillsSection = () => {
       <p className="section-title-sm seq">SKILLS</p>
       <h1 className="section-heading seq mt-2">My Skills</h1>
       <h2 className="text-2xl md:max-w-2xl w-full seq mt-2">
-        I like to take responsibility to craft aesthetic user experience using
-        modern frontend architecture.{" "}
+      Adaptable problem-solver with proficiency in enterprise software, database management, machine learning, and system software, poised to innovate and drive impactful solutions.{" "}
       </h2>
     </div>
   );
@@ -121,11 +116,11 @@ const SkillsSection = () => {
           <div className="flex flex-wrap mt-10">
             <div className="mr-6 mb-6">
               {renderSkillColumn(
-                "User Interface, User Experience Design",
-                SKILLS.userInterface
+                "Languages",
+                SKILLS.languages
               )}
             </div>
-            <div>{renderSkillColumn("Other Skills", SKILLS.other)}</div>
+            <div>{renderSkillColumn("Databases and Other Skills", SKILLS.other)}</div>
           </div>
         </div>
       </div>

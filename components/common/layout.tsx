@@ -1,8 +1,4 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
+
 
 import Head from "next/head";
 import { METADATA } from "../../constants";
@@ -27,7 +23,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <meta property="og:site_name" content={METADATA.title} />
         <meta
           property="og:image"
-          content="https://www.ayushsingh.net/preview.jpg"
+          content=""
         />
         <meta property="og:image:secure_url" content={METADATA.siteUrl} />
         <meta property="og:image:width" content="1440" />
