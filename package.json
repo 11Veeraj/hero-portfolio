@@ -15,6 +15,7 @@
     "react-dom": "^17.0.2",
     "sass": "^1.32.12",
     "typed.js": "^2.0.12",
+    "uri-js": "^4.2.2",
     "vanilla-tilt": "^1.7.0"
   },
   "devDependencies": {
